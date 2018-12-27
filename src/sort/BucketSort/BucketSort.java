@@ -13,6 +13,20 @@
 *
 * */
 
+/*
+* 复杂度
+*
+* 平均复杂度 ：
+* O = (N + C)
+* C = N * (logN - logM)
+*
+* O(N + M)
+*
+*
+* href : https://hxraid.iteye.com/blog/647759
+*
+* */
+
 import java.util.ArrayList;
 import java.util.*;
 
@@ -75,7 +89,7 @@ public class BucketSort
 
 	public static void main(String[] args)
 	{
-		int[] arr = {1, 2, 3, 4, 11, 12, 33, 44, 55};
+		int[] arr = {1, 25, 34, 4, 11, 12, 33, 44, 55};
 		BucketSort bs = new BucketSort(arr);
 
 		bs.bucketSort();
