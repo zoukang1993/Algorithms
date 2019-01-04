@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8e4b24e-b015-437e-a944-12b94d4eae0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/FastSort/FastSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/InsertionSort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/ShellSort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/HeapSort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/SelectionSort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Bubble/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/BubbleSort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/InsertionSort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/InsertionSort/InsertionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,64 +16,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/ShellSort/ShellSort.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sort/HeapSort/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="32" column="33" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="343">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#490#780#0" expanded="true" />
-                <element signature="e#475#491#1" expanded="true" />
-                <element signature="e#490#780#0" expanded="true" />
-                <element signature="e#545#776#0" expanded="true" />
-                <element signature="e#530#539#1" expanded="true" />
-                <element signature="e#545#776#0" expanded="true" />
-                <element signature="e#594#771#0" expanded="true" />
-                <element signature="e#579#588#1" expanded="true" />
-                <element signature="e#594#771#0" expanded="true" />
-                <element signature="e#649#765#0" expanded="true" />
-                <element signature="e#649#765#0" expanded="true" />
-                <element signature="e#664#678#1" expanded="true" />
-                <element signature="e#500#527#1" expanded="true" />
-                <element signature="e#520#551#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sort/InsertionSort/InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding>
-                <element signature="e#366#585#0" expanded="true" />
-                <element signature="e#372#382#1" expanded="true" />
-                <element signature="e#366#585#0" expanded="true" />
-                <element signature="e#366#585#0" expanded="true" />
-                <element signature="e#366#585#0" expanded="true" />
-                <element signature="e#366#585#0" expanded="true" />
-                <element signature="e#409#427#1" expanded="true" />
-                <element signature="e#431#581#0" expanded="true" />
-                <element signature="e#437#447#1" expanded="true" />
-                <element signature="e#431#581#0" expanded="true" />
-                <element signature="e#466#576#0" expanded="true" />
-                <element signature="e#466#576#0" expanded="true" />
-                <element signature="e#690#900#0" expanded="true" />
-                <element signature="e#696#706#1" expanded="true" />
-                <element signature="e#690#900#0" expanded="true" />
-                <element signature="e#690#900#0" expanded="true" />
-                <element signature="e#690#900#0" expanded="true" />
-                <element signature="e#690#900#0" expanded="true" />
-                <element signature="e#736#896#0" expanded="true" />
-                <element signature="e#742#756#1" expanded="true" />
-                <element signature="e#736#896#0" expanded="true" />
-                <element signature="e#774#819#0" expanded="true" />
-                <element signature="e#774#819#0" expanded="true" />
-                <element signature="e#826#844#1" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#849#979#0" expanded="true" />
+                <element signature="e#855#873#1" expanded="true" />
+                <element signature="e#849#979#0" expanded="true" />
+                <element signature="e#919#933#1" expanded="true" />
+                <element signature="e#1025#1084#0" expanded="true" />
+                <element signature="e#1025#1084#0" expanded="true" />
+                <element signature="e#1088#1485#0" expanded="true" />
+                <element signature="e#1122#1148#1" expanded="true" />
+                <element signature="e#1088#1485#0" expanded="true" />
+                <element signature="e#1154#1202#0" expanded="true" />
+                <element signature="e#1154#1202#0" expanded="true" />
+                <element signature="e#1235#1255#1" expanded="true" />
+                <element signature="e#1264#1280#1" expanded="true" />
+                <element signature="e#1316#1334#1" expanded="true" />
+                <element signature="e#1346#1481#0" expanded="true" />
+                <element signature="e#1346#1481#0" expanded="true" />
+                <element signature="e#1416#1430#1" expanded="true" />
+                <element signature="e#1508#1546#0" expanded="true" />
+                <element signature="e#1508#1546#0" expanded="true" />
+                <element signature="e#1623#1637#1" expanded="true" />
+                <element signature="e#1695#1712#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +56,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>BubbleSort</find>
+      <find>arr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,8 +71,10 @@
         <option value="$PROJECT_DIR$/src/sort/basic.txt" />
         <option value="$PROJECT_DIR$/src/sort/Bubble/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/sort/FastSort/FastSort.java" />
-        <option value="$PROJECT_DIR$/src/sort/ShellSort/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/sort/InsertionSort/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/sort/ShellSort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/sort/SelectionSort/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/sort/HeapSort/HeapSort.java" />
       </list>
     </option>
   </component>
@@ -137,13 +113,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-              <item name="InsertionSort" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -155,12 +124,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546500607582" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546587369824" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -195,12 +164,12 @@
       <workItem from="1545816473870" duration="2574000" />
       <workItem from="1545825738060" duration="49623000" />
       <workItem from="1545876999214" duration="4072000" />
-      <workItem from="1546479108899" duration="12338000" />
+      <workItem from="1546479108899" duration="23995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74483000" />
+    <option name="totallyTimeSpent" value="86140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,7 +206,7 @@
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="11" weight="0.32982087" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32982087" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" side_tool="true" visible="true" weight="0.28872496" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" side_tool="true" visible="true" weight="0.28556374" />
       <window_info anchor="bottom" id="Azure Activity Log" order="15" weight="0.32982087" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -257,7 +226,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sort/Bubble/BubbleSort.java</url>
+          <url>file://$PROJECT_DIR$/src/sort/BubbleSort/BubbleSort.java</url>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -309,7 +278,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/Bubble/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
           <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
@@ -325,37 +294,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/ShellSort/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#490#780#0" expanded="true" />
-            <element signature="e#475#491#1" expanded="true" />
-            <element signature="e#490#780#0" expanded="true" />
-            <element signature="e#545#776#0" expanded="true" />
-            <element signature="e#530#539#1" expanded="true" />
-            <element signature="e#545#776#0" expanded="true" />
-            <element signature="e#594#771#0" expanded="true" />
-            <element signature="e#579#588#1" expanded="true" />
-            <element signature="e#594#771#0" expanded="true" />
-            <element signature="e#649#765#0" expanded="true" />
-            <element signature="e#649#765#0" expanded="true" />
-            <element signature="e#664#678#1" expanded="true" />
-            <element signature="e#500#527#1" expanded="true" />
-            <element signature="e#520#551#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/InsertionSort/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="-71">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
+            <element signature="e#0#1150#0" expanded="true" />
             <element signature="e#366#585#0" expanded="true" />
             <element signature="e#372#382#1" expanded="true" />
             <element signature="e#366#585#0" expanded="true" />
@@ -380,6 +324,101 @@
             <element signature="e#774#819#0" expanded="true" />
             <element signature="e#774#819#0" expanded="true" />
             <element signature="e#826#844#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/ShellSort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#490#780#0" expanded="true" />
+            <element signature="e#495#508#1" expanded="true" />
+            <element signature="e#490#780#0" expanded="true" />
+            <element signature="e#545#776#0" expanded="true" />
+            <element signature="e#550#559#1" expanded="true" />
+            <element signature="e#545#776#0" expanded="true" />
+            <element signature="e#594#771#0" expanded="true" />
+            <element signature="e#599#608#1" expanded="true" />
+            <element signature="e#594#771#0" expanded="true" />
+            <element signature="e#649#765#0" expanded="true" />
+            <element signature="e#649#765#0" expanded="true" />
+            <element signature="e#684#698#1" expanded="true" />
+            <element signature="e#500#527#1" expanded="true" />
+            <element signature="e#520#551#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/SelectionSort/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#401#743#0" expanded="true" />
+            <element signature="e#405#415#1" expanded="true" />
+            <element signature="e#401#743#0" expanded="true" />
+            <element signature="e#401#743#0" expanded="true" />
+            <element signature="e#401#743#0" expanded="true" />
+            <element signature="e#401#743#0" expanded="true" />
+            <element signature="e#443#455#1" expanded="true" />
+            <element signature="e#462#584#0" expanded="true" />
+            <element signature="e#463#475#1" expanded="true" />
+            <element signature="e#462#584#0" expanded="true" />
+            <element signature="e#462#584#0" expanded="true" />
+            <element signature="e#462#584#0" expanded="true" />
+            <element signature="e#462#584#0" expanded="true" />
+            <element signature="e#537#579#0" expanded="true" />
+            <element signature="e#537#579#0" expanded="true" />
+            <element signature="e#592#739#0" expanded="true" />
+            <element signature="e#592#739#0" expanded="true" />
+            <element signature="e#591#611#0" expanded="true" />
+            <element signature="e#697#732#0" expanded="true" />
+            <element signature="e#697#732#0" expanded="true" />
+            <element signature="e#766#799#0" expanded="true" />
+            <element signature="e#766#799#0" expanded="true" />
+            <element signature="e#398#414#1" expanded="true" />
+            <element signature="e#448#470#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/HeapSort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#849#979#0" expanded="true" />
+            <element signature="e#855#873#1" expanded="true" />
+            <element signature="e#849#979#0" expanded="true" />
+            <element signature="e#919#933#1" expanded="true" />
+            <element signature="e#1025#1084#0" expanded="true" />
+            <element signature="e#1025#1084#0" expanded="true" />
+            <element signature="e#1088#1485#0" expanded="true" />
+            <element signature="e#1122#1148#1" expanded="true" />
+            <element signature="e#1088#1485#0" expanded="true" />
+            <element signature="e#1154#1202#0" expanded="true" />
+            <element signature="e#1154#1202#0" expanded="true" />
+            <element signature="e#1235#1255#1" expanded="true" />
+            <element signature="e#1264#1280#1" expanded="true" />
+            <element signature="e#1316#1334#1" expanded="true" />
+            <element signature="e#1346#1481#0" expanded="true" />
+            <element signature="e#1346#1481#0" expanded="true" />
+            <element signature="e#1416#1430#1" expanded="true" />
+            <element signature="e#1508#1546#0" expanded="true" />
+            <element signature="e#1508#1546#0" expanded="true" />
+            <element signature="e#1623#1637#1" expanded="true" />
+            <element signature="e#1695#1712#1" expanded="true" />
           </folding>
         </state>
       </provider>
