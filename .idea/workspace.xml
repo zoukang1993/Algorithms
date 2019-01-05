@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8e4b24e-b015-437e-a944-12b94d4eae0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/HeapSort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/SelectionSort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/Bubble/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/BubbleSort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/InsertionSort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/InsertionSort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/BubbleSort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/BubbleSort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/HeapSort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/HeapSort/HeapSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,36 +17,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sort/HeapSort/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="533">
+              <caret line="70" column="37" lean-forward="true" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#849#979#0" expanded="true" />
-                <element signature="e#855#873#1" expanded="true" />
-                <element signature="e#849#979#0" expanded="true" />
-                <element signature="e#919#933#1" expanded="true" />
-                <element signature="e#1025#1084#0" expanded="true" />
-                <element signature="e#1025#1084#0" expanded="true" />
-                <element signature="e#1088#1485#0" expanded="true" />
-                <element signature="e#1122#1148#1" expanded="true" />
-                <element signature="e#1088#1485#0" expanded="true" />
-                <element signature="e#1154#1202#0" expanded="true" />
-                <element signature="e#1154#1202#0" expanded="true" />
-                <element signature="e#1235#1255#1" expanded="true" />
-                <element signature="e#1264#1280#1" expanded="true" />
-                <element signature="e#1316#1334#1" expanded="true" />
-                <element signature="e#1346#1481#0" expanded="true" />
-                <element signature="e#1346#1481#0" expanded="true" />
-                <element signature="e#1416#1430#1" expanded="true" />
-                <element signature="e#1508#1546#0" expanded="true" />
-                <element signature="e#1508#1546#0" expanded="true" />
-                <element signature="e#1623#1637#1" expanded="true" />
-                <element signature="e#1695#1712#1" expanded="true" />
+                <element signature="e#1096#1122#1" expanded="true" />
+                <element signature="e#1210#1235#1" expanded="true" />
+                <element signature="e#1291#1345#1" expanded="true" />
+                <element signature="e#1512#1550#0" expanded="true" />
+                <element signature="e#1512#1550#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-47">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#477#499#1" expanded="true" />
+                <element signature="e#612#808#0" expanded="true" />
+                <element signature="e#508#518#1" expanded="true" />
+                <element signature="e#612#808#0" expanded="true" />
+                <element signature="e#612#808#0" expanded="true" />
+                <element signature="e#612#808#0" expanded="true" />
+                <element signature="e#612#808#0" expanded="true" />
+                <element signature="e#652#804#0" expanded="true" />
+                <element signature="e#548#558#1" expanded="true" />
+                <element signature="e#652#804#0" expanded="true" />
+                <element signature="e#652#804#0" expanded="true" />
+                <element signature="e#652#804#0" expanded="true" />
+                <element signature="e#652#804#0" expanded="true" />
+                <element signature="e#697#799#0" expanded="true" />
+                <element signature="e#697#799#0" expanded="true" />
+                <element signature="e#794#865#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,9 +85,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test/Test.java" />
         <option value="$PROJECT_DIR$/src/sort/BucketSort/BucketSort.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/sort/basic.txt" />
         <option value="$PROJECT_DIR$/src/sort/Bubble/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/sort/FastSort/FastSort.java" />
@@ -75,6 +93,9 @@
         <option value="$PROJECT_DIR$/src/sort/ShellSort/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/sort/SelectionSort/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/sort/HeapSort/HeapSort.java" />
+        <option value="$PROJECT_DIR$/Test/Test.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/sort/BubbleSort/BubbleSort.java" />
       </list>
     </option>
   </component>
@@ -113,6 +134,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="BubbleSort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,7 +157,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546587369824" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546668845982" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -164,12 +197,12 @@
       <workItem from="1545816473870" duration="2574000" />
       <workItem from="1545825738060" duration="49623000" />
       <workItem from="1545876999214" duration="4072000" />
-      <workItem from="1546479108899" duration="23995000" />
+      <workItem from="1546479108899" duration="37062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86140000" />
+    <option name="totallyTimeSpent" value="99207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,14 +217,14 @@
     <frame x="2048" y="95" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12832801" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12832801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
-      <window_info id="Azure Explorer" order="7" />
+      <window_info id="Azure Explorer" order="7" weight="0.32960597" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -206,8 +239,8 @@
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="11" weight="0.32982087" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32982087" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" side_tool="true" visible="true" weight="0.28556374" />
-      <window_info anchor="bottom" id="Azure Activity Log" order="15" weight="0.32982087" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="14" weight="0.32982087" />
+      <window_info anchor="bottom" id="Terminal" order="15" visible="true" weight="0.3361433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,20 +267,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/sort/Screen Shot 2019-01-03 at 9.45.13 AM.png">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -275,22 +294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#928#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#477#499#1" expanded="true" />
-            <element signature="e#508#518#1" expanded="true" />
-            <element signature="e#548#558#1" expanded="true" />
-            <element signature="e#794#865#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -390,35 +393,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/HeapSort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="533">
+          <caret line="70" column="37" lean-forward="true" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#849#979#0" expanded="true" />
-            <element signature="e#855#873#1" expanded="true" />
-            <element signature="e#849#979#0" expanded="true" />
-            <element signature="e#919#933#1" expanded="true" />
-            <element signature="e#1025#1084#0" expanded="true" />
-            <element signature="e#1025#1084#0" expanded="true" />
-            <element signature="e#1088#1485#0" expanded="true" />
-            <element signature="e#1122#1148#1" expanded="true" />
-            <element signature="e#1088#1485#0" expanded="true" />
-            <element signature="e#1154#1202#0" expanded="true" />
-            <element signature="e#1154#1202#0" expanded="true" />
-            <element signature="e#1235#1255#1" expanded="true" />
-            <element signature="e#1264#1280#1" expanded="true" />
-            <element signature="e#1316#1334#1" expanded="true" />
-            <element signature="e#1346#1481#0" expanded="true" />
-            <element signature="e#1346#1481#0" expanded="true" />
-            <element signature="e#1416#1430#1" expanded="true" />
-            <element signature="e#1508#1546#0" expanded="true" />
-            <element signature="e#1508#1546#0" expanded="true" />
-            <element signature="e#1623#1637#1" expanded="true" />
-            <element signature="e#1695#1712#1" expanded="true" />
+            <element signature="e#1096#1122#1" expanded="true" />
+            <element signature="e#1210#1235#1" expanded="true" />
+            <element signature="e#1291#1345#1" expanded="true" />
+            <element signature="e#1512#1550#0" expanded="true" />
+            <element signature="e#1512#1550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#477#499#1" expanded="true" />
+            <element signature="e#612#808#0" expanded="true" />
+            <element signature="e#508#518#1" expanded="true" />
+            <element signature="e#612#808#0" expanded="true" />
+            <element signature="e#612#808#0" expanded="true" />
+            <element signature="e#612#808#0" expanded="true" />
+            <element signature="e#612#808#0" expanded="true" />
+            <element signature="e#652#804#0" expanded="true" />
+            <element signature="e#548#558#1" expanded="true" />
+            <element signature="e#652#804#0" expanded="true" />
+            <element signature="e#652#804#0" expanded="true" />
+            <element signature="e#652#804#0" expanded="true" />
+            <element signature="e#652#804#0" expanded="true" />
+            <element signature="e#697#799#0" expanded="true" />
+            <element signature="e#697#799#0" expanded="true" />
+            <element signature="e#794#865#1" expanded="true" />
           </folding>
         </state>
       </provider>

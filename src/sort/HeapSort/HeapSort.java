@@ -16,9 +16,9 @@
 	* 所有堆排序有两个函数组成，一是建堆函数，二是反复调用建堆函数选择出剩余末排元素中最大的数来实现排序的函数
 *
 * 操作：
-* 最大堆调整(Max_Heapify): 将堆得末端子节点做调整，使得子节点永远小于父节点
-* 创建最大堆(Build_Max_Heap): 将堆得所有数据重新排序
-* 堆排序(HeapSort): 移除位在第一个数据的根节点，并做最大堆调整的递归运算
+	* 最大堆调整(Max_Heapify): 将堆得末端子节点做调整，使得子节点永远小于父节点
+	* 创建最大堆(Build_Max_Heap): 将堆得所有数据重新排序
+	* 堆排序(HeapSort): 移除位在第一个数据的根节点，并做最大堆调整的递归运算
 *
 *
 * 对于堆节点的访问：
@@ -64,6 +64,7 @@ public class HeapSort
 			int left = parentIdx * 2;
 			int right = left + 1 >= limit ? left : left + 1;
 			int maxChild = arr[left] >= arr[right] ? left : right;
+
 			if (arr[maxChild] > arr[parentIdx]) {
 				int temp = arr[parentIdx];
 				arr[parentIdx] = arr[maxChild];
