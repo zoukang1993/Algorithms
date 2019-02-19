@@ -55,75 +55,167 @@
 *
 * */
 
-class Node {
-	private Comparable data;
-	private Node left;
-	private Node right;
+class BinaryTreeNode {
+	private int data;
+	private BinaryTreeNode leftChild;
+	private BinaryTreeNode rightChild;
 
-	public Node(Comparable data) {
+	public int getData() {
+		return data;
+	}
+
+	public void setData(int data) {
 		this.data = data;
 	}
 
-	public void addNode(Node newNode) {
-		if (newNode.data.compareTo(data) < 0) {
-			if (left == null) {
-				left = newNode;
-			} else {
-				left.addNode(newNode);
-			}
-		} else {
-			if (right == null) {
-				right = newNode;
-			} else {
-				right.addNode(newNode);
-			}
-		}
+	public BinaryTreeNode getLeftChild() {
+		return leftChild;
 	}
 
-	public void printNode() {
-		if (left != null) {
-			left.printNode();
-		}
+	public void setLeftChild(BinaryTreeNode leftChild) {
+		this.leftChild = leftChild;
+	}
 
-		System.out.println(data + "\t");
+	public BinaryTreeNode getRightChild() {
+		return rightChild;
+	}
 
-		if (right != null) {
-			right.printNode();
-		}
+	public void setRightChild(BinaryTreeNode rightChild) {
+		this.rightChild = rightChild;
 	}
 }
 
 public class BinaryTree {
-	private Node root;
+	private BinaryTreeNode root;
 
-	public void add(Comparable data) {
-		Node newNode = new Node(data);
+	// init binary tree
+	public BinaryTree() {
 
-		if (root == null) {
-			root = newNode;
-		} else {
-			root.addNode(newNode);
+	}
+
+	public BinaryTree(BinaryTreeNode root) {
+		this.root = root;
+	}
+
+	public void setRoot(BinaryTreeNode root) {
+		this.root = root;
+	}
+
+	public BinaryTreeNode getRoot() {
+		return root;
+	}
+
+	// clear binary tree
+	public void clear() {
+		clear(root);
+	}
+
+	public void clear(BinaryTreeNode node) {
+		if (node != null) {
+			clear(node.getLeftChild());
+			clear(node.getRightChild());
+			node = null;
 		}
 	}
 
-	public void print() {
-		root.printNode();
+	public boolean isEmpty() {
+		return root == null;
+	}
+
+	public int height() {
+		return height(root);
+	}
+
+	public int height(BinaryTreeNode node) {
+		if (node == null) {
+			return 0;
+		} else {
+			int l = height(node.getLeftChild());
+			int r = height(node.getRightChild());
+			int len = l > r ? l + 1 : r + 1;
+			return len;
+		}
+	}
+
+	public int size() {
+		return size(root);
+	}
+
+	public int size(BinaryTreeNode node) {
+		if (node == null) {
+			return 0;
+		} else {
+			return 1 + size(node.getLeftChild()) + size(node.getRightChild());
+		}
+	}
+
+	public BinaryTreeNode getParent(BinaryTreeNode node) {
+		return (root == null || root == null) ? null : getParent(root, node);
+	}
+
+	public BinaryTreeNode getParent(BinaryTreeNode subTree, BinaryTreeNode node) {
+		if (subTree == null) {
+			return null;
+		}
+
+		if (subTree.getLeftChild() == node || subTree.getRightChild() == node) {
+			return subTree;
+		}
+
+		BinaryTreeNode parent = null;
+
+		if (getParent(subTree.getLeftChild(), node) != null) {
+			parent = getParent(subTree.getLeftChild(), node);
+			return parent;
+		} else {
+			return getParent(subTree.getRightChild(), node);
+		}
+	}
+
+	public BinaryTreeNode getLeftTree(BinaryTreeNode node) {
+		return node.getLeftChild();
+	}
+
+	public BinaryTreeNode getRightTree(BinaryTreeNode node) {
+		return node.getRightChild();
+	}
+
+	public void insertLeft(BinaryTreeNode parent, BinaryTreeNode newNode) {
+		parent.setLeftChild(newNode);
+	}
+
+	public void insertRight(BinaryTreeNode parent, BinaryTreeNode newNode) {
+		parent.setRightChild(newNode);
+	}
+
+	public void preOrder(BinaryTreeNode node) {
+		if (node == null) {
+			return;
+		}
+
+		System.out.println(node.getData());
+		preOrder(node.getLeftChild());
+		preOrder(node.getRightChild());
+	}
+
+	public void inOrder(BinaryTreeNode node) {
+		if (node == null) {
+			return;
+		}
+		inOrder(node.getLeftChild());
+		System.out.println(node);
+		inOrder(node.getRightChild());
+	}
+
+	public void postOrder(BinaryTreeNode node) {
+		if (node == null) {
+			postOrder(node.getLeftChild());
+			postOrder(node.getRightChild());
+			System.out.println(node);
+		}
 	}
 
 	public static void main(String[] args) {
-		BinaryTree bt = new BinaryTree();
 
-		bt.add(7);
-		bt.add(21);
-		bt.add(18);
-		bt.add(16);
-		bt.add(9);
-		bt.add(20);
-		bt.add(2);
-		bt.add(0);
-		bt.add(11);
-		bt.add(13);
-
-		bt.print();
 	}
 }
